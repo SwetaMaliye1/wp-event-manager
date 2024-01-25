@@ -182,7 +182,7 @@ class WP_Event_Manager_Shortcodes{
 		}
 
 		extract(shortcode_atts(array(
-			'posts_per_page' => '10',
+			'posts_per_page' => '1',
 		), $atts));
 
 		wp_enqueue_script('wp-event-manager-event-dashboard');
